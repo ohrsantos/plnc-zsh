@@ -1,5 +1,0 @@
-#!/bin/sh
-
-LC_ALL=C ./plnc.ksh "%@"
-
-exit 0
