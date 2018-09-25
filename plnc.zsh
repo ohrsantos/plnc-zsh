@@ -115,7 +115,7 @@ done
 
 shift $(($OPTIND - 1))
 
-print "${SCRIPT_NAME} ${PLN_KSH_VERSION}"
+print "${SCRIPT_NAME} ${PLN_ZSH_VERSION}"
 
 function clear {
    printf  "\r                               \r"
