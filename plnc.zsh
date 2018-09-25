@@ -2,15 +2,15 @@
 #        1         2         3         4         5         6         7         8         9
 #234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890
 # Import lib
-. $OHRS_STUFF_PATH/plnc-ksh/kbdlib.sh
+. $OHRS_STUFF_PATH/plnc-zsh/kbdlib.sh
 
 ################################################################################
-SCRIPT_NAME="PLNKSH Calc"
+SCRIPT_NAME="PLNZSH Calc"
 ################################################################################
-PLN_KSH_VERSION=0.993a
+PLN_ZSH_VERSION=0.994a
 AUTHOR="Orlando Hehl Rebelo dos Santos"
 DATE_INI="05-08-2017"
-DATE_END="14-09-2018"
+DATE_END="25-09-2018"
 ################################################################################
 
 zmodload  zsh/mathfunc
@@ -76,7 +76,7 @@ typeset -F10 input_f
 
 usage(){
         print $SCRIPT_NAME
-	print "Usage: plncalc.ksh [-p precision] [-v] [-t]"
+	print "Usage: plncalc.zsh [-p precision] [-v] [-t]"
 	print "  -k   Precision"
 	print "  -C   Columns"
 	print "  -s   Clear screen"
