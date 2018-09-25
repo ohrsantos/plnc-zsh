@@ -99,7 +99,7 @@ do
                 CLRSCR=TRUE
                 ;;
             v)
-                print "${SCRIPT_NAME} ${PLN_KSH_VERSION}"
+                print "${SCRIPT_NAME} ${PLN_ZSH_VERSION}"
                 exit 0
                 ;;
             t)
