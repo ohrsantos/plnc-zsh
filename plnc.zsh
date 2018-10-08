@@ -42,7 +42,7 @@ function print_regs {
        columns_available=$((COLUMNS - 3))
        for (( n = 1; n <= $#regs; n++ )); do 
            if [[ -n ${regs[n]} ]]; then
-                  printf "%2d:%${columns_available}.${PRECISION}f\n" $regs_length ${regs[$n]}
+                  printf "%2d:%${columns_available}.${PRECISION}f\n" $(($regs_length -1 )) ${regs[$n]}
                ((regs_length--))
            fi
        done
